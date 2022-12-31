@@ -1,7 +1,7 @@
 import React from "react";
-import "./style.css";
-import PersonIcon from "@mui/icons-material/Person";
+import "./styles.css";
 import IconButton from "@mui/material/IconButton";
+import PersonIcon from "@mui/icons-material/Person";
 import ForumIcon from "@mui/icons-material/Forum";
 const header = () => {
   return (
@@ -11,9 +11,9 @@ const header = () => {
       </IconButton>
 
       <img
+        className="header__img"
         src="https://assets.stickpng.com/images/6136258bf5966900044cbf6c.png"
-        className="header__logo"
-        alt="Logo"
+        alt=""
       />
 
       <IconButton>
